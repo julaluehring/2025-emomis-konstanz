@@ -42,6 +42,15 @@ editor: visual #visual editor
 :::
 :::
 
+## Team work <3
+
+<br>
+<br>
+
+:::{.center}
+![](images/collaborators.png){width="1000"}
+:::
+
 ## On emotions and identity
 
 ![](images/emotions-identity.png){width="700"}
@@ -54,13 +63,41 @@ editor: visual #visual editor
 ::: 
 
 
-# Do emotions<sup>1</sup> make people fall for misinformation<sup>2</sup>?
+## What do we know?
+
+::: columns
+
+::: {.column width="50%"}
+
+1. Arousing emotions<sup>1</sup> **reinforce** partisan-based information processing
+
+![Russel, [1980](https://psycnet.apa.org/record/1981-25062-001)](images/circumplex.png){width="425"}
+
+:::
+
+
+::: {.column width="50%"}
+
+::: fragment
+2. Misinformation<sup>2</sup> **thrives** in partisan information environments
+
+![Mosleh & Rand, [2022](https://www.nature.com/articles/s41467-022-34769-6)](images/political-asymmetry.png){width="350" .right}
+
+:::
+
+:::
+
+:::
 
 ::: footer
-<sup>1</sup>Lindquist & Barret, [2012](https://linkinghub.elsevier.com/retrieve/pii/S1364661312002215); Leach & Bou Zeineddine, [2021](https://link.springer.com/10.1007/s42761-021-00051-z)
-
-<sup>2</sup>Wardle & Derakhshan, [2017](http://tverezo.info/wp-content/uploads/2017/11/PREMS-162317-GBR-2018-Report-desinformation-A4-BAT.pdf)
+<sup>1</sup>Lindquist & Barret, [2012](https://linkinghub.elsevier.com/retrieve/pii/S1364661312002215); Leach & Bou Zeineddine, [2021](https://link.springer.com/10.1007/s42761-021-00051-z); <sup>2</sup>Wardle & Derakhshan, [2017](http://tverezo.info/wp-content/uploads/2017/11/PREMS-162317-GBR-2018-Report-desinformation-A4-BAT.pdf)
 :::
+
+::: notes
+
+:::
+# Do emotions make people fall for misinformation?
+
 
 ::: notes
 So when we talk about misinformation, we usually refer to inaccurate information, regardless of the intention.
@@ -161,7 +198,7 @@ This is in line with research showing that one of the strongest predictors is pa
 
           -   only 0.3-6% in 5 studies from 2016-2021,
           -   spread by elite & partisan superspreaders,
-          -   but probably pushed by recommendation algorithms.
+          -   creating a self-reinforcing feedback loop with algorithmic systems.
 
 ::: columns
 ::: {.column width="60%"}
@@ -181,7 +218,7 @@ $\rightarrow$ **What are secondary effects?**
 :::
 
 ::: footer
-Allen et al., [2024](https://www.science.org/doi/full/10.1126/science.adk3451); Bail, [2021](https://press.princeton.edu/books/hardcover/9780691203423/breaking-the-social-media-prism); Baribi-Bartov et al., [2024](https://www.science.org/doi/10.1126/science.adl4435); Luehring et al., [2024](https://www.nomos-elibrary.de/10.5771/1615-634X-2024-3-297/trust-in-a-digital-world-the-roles-of-media-trust-and-ordinary-citizen-cues-in-online-disinformation-s-credibility-volume-72-2024-issue-3?page=1); Mosleh et al. [2024](https://doi.org/10.1093/pnasnexus/pgae111); Robertson et al., [2023](https://www.nature.com/articles/s41586-023-06078-5); Zollo et al., [2015](https://dx.plos.org/10.1371/journal.pone.0138740)
+Allen et al., [2024](https://www.science.org/doi/full/10.1126/science.adk3451); Baribi-Bartov et al., [2024](https://www.science.org/doi/10.1126/science.adl4435); Luehring et al., [2024](https://www.nomos-elibrary.de/10.5771/1615-634X-2024-3-297/trust-in-a-digital-world-the-roles-of-media-trust-and-ordinary-citizen-cues-in-online-disinformation-s-credibility-volume-72-2024-issue-3?page=1); Mosleh et al. [2024](https://doi.org/10.1093/pnasnexus/pgae111); Piccardi et al., [2024](https://arxiv.org/abs/2411.14652); Robertson et al., [2023](https://www.nature.com/articles/s41586-023-06078-5); Zollo et al., [2015](https://dx.plos.org/10.1371/journal.pone.0138740)
 :::
 
 ::: notes
@@ -324,7 +361,7 @@ Luehring, Metzler et al., [2025](https://journalqd.org/article/view/4500)
 
 
 
-## Classification of emotional expressions
+## Emotion detection in tweets
 
 ::: columns
 
@@ -338,7 +375,7 @@ Luehring, Metzler et al., [2025](https://journalqd.org/article/view/4500)
 
 <br>
 
-$\rightarrow$ probability of each tweet containing an emotion
+$\rightarrow$ probability of each tweet containing each emotion (0-1)
 
 :::
 
@@ -468,15 +505,19 @@ users wrote 80% of the replies to trustworthy news, only 2.1% wrote 80% of the r
   
       
       
-## And now: Analyzing a Twitter panel of Austrian users
+## Now: Analyzing a Twitter panel of Austrian users
 
--   timeline of 29k Austrian Twitter users (~140M tweets)
--   classification of emotions, topics, trustworthiness
+**Data set**: 2019-2023 timelines of 29k Austrian Twitter users (~140M tweets) $\rightarrow$ *pre-registered!*
 
-![](images/grid_count.png){width="1000"}
+![*Note*. Random subset of 1,000 users](images/grid_count.png){width="1000"}
 
 ## Emotional dynamics
-![](images/emotions.png){width="1000"}
+
+**RQ1**: What are characteristics of users?
+
+**RQ2**: What is the temporal development of trustworthiness and emotions?
+
+![*Note*. Random subset of 1,000 users](images/emotions.png){width="1000"}
 
 
 
@@ -486,4 +527,4 @@ Email: [jula.luehring\@univie.ac.at](jula.luehring@univie.ac.at)
 
 Bluesky: [\@julaluehring.bsky.social](https://bsky.app/profile/julaluehring.bsky.social)
 
-Github: [julaluehring](https://github.com/julaluehring)
+Github: [github.com/julaluehring](https://github.com/julaluehring)
